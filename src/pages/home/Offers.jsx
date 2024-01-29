@@ -18,7 +18,7 @@ export default function Offers() {
           diversity, and financial empowerment.
         </p>
       </div>
-      <div className="pl-5 md:pl-20 flex gap-10 overflow-x-scroll snap">
+      <div className="pl-5 md:pl-20 flex gap-5 md:gap-10 overflow-x-scroll snap">
         <Single
           img={offer1}
           name="Property Name"
@@ -56,7 +56,7 @@ const Single = ({ img, name, location, text, slug }) => {
   return (
     <div className="relative w-[90%] min-w-[90%] md:w-[30%] md:min-w-[30%]">
       <img src={img} alt="" className="w-full h-full md:block hidden" />
-      <div className="flex flex-col gap-3 absolute top-0 left-0 bg-white w-full h-full md:opacity-0 md:hover:opacity-100 transition-all duration-700 ease-in-out">
+      <div className="flex flex-col gap-3 md:absolute top-0 left-0 bg-white w-full h-full md:opacity-0 md:hover:opacity-100 transition-all duration-700 ease-in-out">
         <img
           src={img}
           alt=""
