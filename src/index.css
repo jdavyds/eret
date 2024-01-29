@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+  font-family: "Matter";
+  src: url("./assets/matter-font/Matter-Regular.ttf") format("truetype");
+  src: url("./assets//matter-font/Matter-Bold.ttf") format("truetype");
+  src: url("./assets//matter-font/Matter-Heavy.ttf") format("truetype");
+  src: url("./assets//matter-font/Matter-Medium.ttf") format("truetype");
+  src: url("./assets//matter-font/Matter-SemiBold.ttf") format("truetype");
+  src: url("./assets//matter-font/Matter-Light.ttf") format("truetype");
+  font-style: normal;
+} */
+
+:root {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  /* font-weight: 400; */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  color: #4e4e4e;
+}
+button {
+  outline: none;
+}
+select {
+  appearance: none;
+  outline: none;
+}
+
+.snap {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.snap::-webkit-scrollbar {
+  display: none;
+}
+
+.back {
+  background-size: 35% 100%;
+  background-image: url("./assets/hero.png");
+}
+.hero {
+  background-image: url("./assets/hero.png");
+}
+
+@media (max-width: 768px) {
+  .back {
+    background-image: none;
+  }
+  .hero {
+    background-image: none;
+  }
+}
+
+@media (max-width: 3860px) {
+  html {
+    zoom: 1;
+  }
+}
