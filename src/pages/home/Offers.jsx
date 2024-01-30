@@ -18,7 +18,7 @@ export default function Offers() {
           diversity, and financial empowerment.
         </p>
       </div>
-      <div className="pl-5 md:pl-20 flex gap-5 md:gap-10 overflow-x-scroll snap">
+      <div className="pl-5 md:pl-20 flex gap-5 md:gap-10® overflow-x-scroll snap">
         <Single
           img={offer1}
           name="Property Name"

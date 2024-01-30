@@ -1,5 +1,4 @@
 import logo from "../assets/logo.png";
-import gasus from "../assets/gasus.png";
 import sbo from "../assets/sbo.png";
 import { FaArrowRight } from "react-icons/fa";
 export default function Footer() {
@@ -38,13 +37,6 @@ export default function Footer() {
           </label>
           <div className="flex flex-col md:flex-row gap-2 justify-start items-start">
             <img src={sbo} alt="" className="h-16 object-contain" />
-            <div className="flex gap-1">
-              <img src={gasus} alt="" className="object-contain" />
-              <div className="flex text-xs md:text-sm">
-                We are businesses built on the foundation of christian values
-                and beliefs
-              </div>
-            </div>
           </div>
         </nav>
       </section>
