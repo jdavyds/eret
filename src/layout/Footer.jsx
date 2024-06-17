@@ -8,8 +8,8 @@ export default function Footer() {
         <div className="flex flex-col items-start gap-4 col-span-2 md:col-span-1 py-5 md:py-12">
           <img src={logo} alt="" className="object-contain " />
           <p>
-            gateway to global real estate wealth. Buy in, Buy out, diversify,
-            and watch your real estate wealth grow with the ends in mind.
+            the global implementers of Real Estate Co-Ownership Rights-RECORs
+            Trade and Exchange market system.
           </p>
         </div>
         <nav className="flex md:justify-center font-[400] py-2 md:py-12">

@@ -1,6 +1,5 @@
 import logo from "../assets/logo.png";
 import { NavLink } from "react-router-dom";
-import { Btn, BtnB } from "../utils/Button";
 
 export default function Header() {
   return (
@@ -8,10 +7,27 @@ export default function Header() {
       <NavLink to="/" className="flex justify-start">
         <img src={logo} alt="" className="object-contain h-8 md:h-14" />
       </NavLink>
-      <Btn name="Own a RECORs Share" slug="/" style="text-sm md:hidden"  />
+      <a
+        href="/#own"
+        className={`min-w-fit w-fit h-10 md:h-12 font-[500] md:font-[600] text-white bg-primary rounded-full flex items-center justify-center  px-4 md:px-8 text-sm md:hidden`}
+      >
+        Own a RECORs Share
+      </a>
       <nav className="hidden md:flex gap-5 items-center">
-        <Btn name="Own a RECORs Share" slug="/"  />
-        <BtnB name="Book An Appointment" slug="/book"  />
+        {/* <Btn name="Own a RECORs Share" slug="/" /> */}
+        {/* <BtnB name="Book An Appointment" slug="/book" /> */}
+        <a
+          href="/#own"
+          className={`min-w-fit w-fit h-10 md:h-12 font-[500] md:font-[600] text-white bg-primary rounded-full flex items-center justify-center  px-4 md:px-8`}
+        >
+          Own a RECORs Share
+        </a>
+        <a
+          href="/#book"
+          className={`min-w-fit w-fit h-10 md:h-12 font-[500] md:font-[600] text-secondary border border-secondary bg-inherit rounded-full flex items-center justify-center px-8`}
+        >
+          Book An Appointment
+        </a>
       </nav>
     </header>
   );

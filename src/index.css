@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @font-face {
+@font-face {
   font-family: "Matter";
   src: url("./assets/matter-font/Matter-Regular.ttf") format("truetype");
   src: url("./assets//matter-font/Matter-Bold.ttf") format("truetype");
@@ -11,10 +11,10 @@
   src: url("./assets//matter-font/Matter-SemiBold.ttf") format("truetype");
   src: url("./assets//matter-font/Matter-Light.ttf") format("truetype");
   font-style: normal;
-} */
+}
 
 :root {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Matter", sans-serif;
   line-height: 1.5;
   /* font-weight: 400; */
   font-synthesis: none;

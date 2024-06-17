@@ -11,7 +11,7 @@ export default function Quote() {
           a brighter tomorrow.
         </q>
         <p className="text-dark font-medium">Samuel Sobayo</p>
-        <p className="">Founder, ECommercial Real Estate Trading (ERET)</p>
+        <p className="text-xs md:text-base">Founder Real Estate Co-Ownership Rights-RECORs Trade And Exchange Market System</p>
       </section>
     </main>
   );

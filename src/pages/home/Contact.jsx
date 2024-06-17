@@ -49,7 +49,10 @@ export default function Contact() {
   }
 
   return (
-    <main className="px-5 md:px-20 py-10 md:py-20 flex flex-col gap-10 bg-[#F8FFFA]">
+    <main
+      className="px-5 md:px-20 py-10 md:py-20 flex flex-col gap-10 bg-[#F8FFFA]"
+      id="book"
+    >
       <div className="flex flex-col gap-4">
         <h3 className="text-2xl md:text-[40px] font-medium text-secondary">
           Book An Appointment

@@ -7,7 +7,7 @@ import { Btn } from "../../utils/Button";
 
 export default function Offers() {
   return (
-    <main className="py-10 flex flex-col gap-10">
+    <main className="py-10 flex flex-col gap-10" id="own">
       <div className="px-5 md:px-20 flex flex-col gap-4">
         <h3 className="text-2xl md:text-[40px] font-medium text-secondary">
           REAL ESTATE Co-Ownership Rights Offers

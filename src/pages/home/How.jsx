@@ -11,28 +11,32 @@ export default function How() {
           How It Works
         </h3>
         <p className="md:w-2/3">
-          Buying into {`ERET's`} offer of Real Estate Co-Ownership Rights
-          -RECORs to commercially viable real estates in the global real estate
-          destinations is a straight forward and empowering experience
-          researched, designed, developed and sustainably managed to put you in
-          control of your economic destiny.
+          RECORs, or Real Estate Co-Ownership Rights, transform property
+          ownership by allowing investors to acquire fractional ownership stakes
+          in real estate assets. Governed by Transparent-Responsible Dealings
+          (TRD) standards, the market ensures inclusivity through verified
+          RECORs Brokers. Investors engage in trading and exchanging these
+          rights, fostering portfolio diversification and granting access to
+          premium properties with lower financial thresholds. This transparent
+          and regulated system empowers investors to navigate the market
+          confidently, driving participation and fostering a dynamic ecosystem.
         </p>
       </div>
       <div className="flex flex-col md:grid grid-cols-4 gap-10">
         <Single
           img={icon1}
-          title="Explore Our Curated Portfolio"
-          desc="Dive into our curated selection of prime real estate properties. Each property is meticulously vetted to offer you diverse investment opportunities."
+          title="Explore Our RECORs Market Compliant Real Estate Portfolio"
+          desc="Each property is meticulously vetted to provide you with a diverse array of investment opportunities."
         />
         <Single
           img={icon2}
-          title="Invest with Confidence"
-          desc="ERET ensures transparent co-ownership, offering clear insights into risks, returns, and strategy. Confidently navigate and contribute to shared success as a co-owner"
+          title="Buy in and Buy out RECORs with Confidence!"
+          desc="ERET ensures transparent co-ownership, offering clear insights into risks, returns, and strategy. Confidently navigate and contribute to shared success as a co-owner."
         />
         <Single
           img={icon3}
-          title="Monitor Your Portfolio"
-          desc="Our intuitive portfolio management tools make it easy to keep tabs on your investments. Receive regular updates on property performance, market trends, and the growth of your portfolio."
+          title="Monitor Your Portfolio with Ease!"
+          desc=" Our intuitive tools make managing your investments a breeze. Stay informed, track performance, and make informed decisions effortlessly. Start optimizing your portfolio today!"
         />
         <Single
           img={icon4}
